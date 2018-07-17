@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>在室状況管理システムHP</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet_home.css">
+  <link rel="stylesheet" href="stylesheet_condition.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <!--  <script type="text/javascript" src="script.js"></script>!-->
+</head>
+<body>
+
+  <header>
+    <div class="bs-component">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="#">
+        <div class="navbar-brand"><img src="https://files.slack.com/files-pri/TB0DS5VSP-FB3VAUY0J/logo_trans.png"></div>
+        <div class="title">
+          <h1>在室状況管理システム</h1>
+        </div>
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <div class="navbar-nav mr-auto"></div>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ルーム一覧</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  マイページ
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="profile">
+                  </div>
+                  <a class="dropdown-item" href="#">在室状況</a>
+                  <a class="dropdown-item" href="#">オプション</a>
+                  <a class="dropdown-item" href="#">ログアウト</a>
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+</main>
+<footer>
+  <div class="footer-wrapper">
+    <div class="inner">
+      <div class="frame">
+        <div class="footer-children">
+          <a href="#">ホーム</a>
+          <a href="#">ログイン</a>
+        </div>
+        <div class="copyright">
+          © 2018 nithc.net. All Rigths Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</html>
