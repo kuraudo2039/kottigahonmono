@@ -1,0 +1,55 @@
+.main-wrapper .contents{
+  background-color:#FFFFFF;
+  height:1000px;
+}
+
+.footer-wrapper{
+  border-top:1px solid #ddd;
+  background-color:#ECEEF1;
+}
+
+.navbar-brand img{
+  height:75px;
+}
+
+.navbar{
+  padding:5px 15px;
+}
+
+.navbar-brand{
+  margin-right:8px;
+  vertical-align: middle;
+}
+
+.title{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title h1{
+  padding:2px 0px 0px;
+  margin:0px;
+  font-size: 35px;
+  color:#ffffff;
+}
+
+footer .inner{
+  padding:50px 35px;
+}
+
+footer .frame{
+  position:relative;
+}
+
+.footer-children a{
+  line-height:24px;
+  color:#2f2f2f;
+  margin-right:20px;
+}
+
+.copyright{
+  position:absolute;
+  top:0px;
+  right:0px;
+  line-height:24px;
+}
