@@ -60,21 +60,35 @@
   <main>
     <div class="main-wrapper">
       <div class="contents">
+        <h1>新規登録</h1>
+        <form>
+        <p class = "sub">※登録済みの方は<a href = "#">こちらのフォーム</a>からログインして下さい。</p>
         <div class="form-group">
-          <input type="text" name="org_id" class="form-control" placeholder="組織ID" id="inputDefault">
+          <input type="text" name="org_id" class="form-control" placeholder="組織ID" id="OrganizeName" required>
+          <p>…任意の組織IDを入力</p>
         </div>
         <div class="form-group">
-          <input type="text" name="org_name" class="form-control" placeholder="組織名" id="inputDefault">
+          <input type="text" name="org_name" class="form-control" placeholder="組織名" id="OrganizeID" required>
+          <p>…管理者が属する組織名を入力</p>
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="組織の概要・説明"></textarea>
+          <textarea class="form-control" id="Abstract" rows="3" placeholder="組織の概要・説明"></textarea>
+          <p>…組織の事業内容等を大まかに入力</p>
         </div>
         <div class="form-group">
-          <input type="text" name="admin_ID" class="form-control" placeholder="管理者ID" id="inputDefault">
+          <input type="text" name="admin_ID" class="form-control" placeholder="管理者ID" id="ManageID" required>
+          <p>…任意の管理者IDを入力</p>
         </div>
         <div class="form-group">
-          <input type="password" name="admin_password" class="form-control" id="exampleInputPassword1" placeholder="管理者のパスワード">
+          <input type="password" name="admin_password" class="form-control" id="ManagePassword1" placeholder="管理者のパスワード" required>
+          <p></p>
         </div>
+        <div class="form-group">
+          <input type="password" name="admin_password" class="form-control" id="ManagePassword2" placeholder="再入力" required>
+          <p id="PassAlert">パスワードが一致しません</p>
+        </div>
+        <button type="submit" id="SubmitButton" class="btn btn-primary" disabled>送信</button>
+      </form>
       </div>
     </div>
   </main>
@@ -98,4 +112,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="script.js"></script>
 </html>
