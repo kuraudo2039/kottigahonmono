@@ -1,28 +1,20 @@
+$('#ManagePassword2').keyup(function(){
+  var Pass1 = $('#ManagePassword1').val();
+  var Pass2 = $('#ManagePassword2').val();
+
+  console.log(Pass1+" "+Pass2);
+
+  if(Pass1!=Pass2){
+    $('#PassAlert').css('display','block');
+    $('#SubmitButton').prop('disabled', true);
+  }
+
+  else{
+    $('#PassAlert').css('display','none');
+    $('#SubmitButton').prop('disabled', false);
+  }
+});
+
 $(function(){
-  });
-/*
-  $('.tab-1').click(function(){
-    $('.type').css('display','none');
-    $('#mechanical').css('display','block');
-
-  });
-
-  $('.tab-2').click(function(){
-    $('.type').css('display','none');
-    $('#electronical').css('display','block');
-  });
-
-  $('.tab-3').click(function(){
-    $('.type').css('display','none');
-    $('#chemical').css('display','block');
-  });
-
-  $('.tab-4').click(function(){
-    $('.type').css('display','none');
-    $('#zivil').css('display','block');
-  });
-*/
-
-//ここからcondition.htmlの編集
 
 });
