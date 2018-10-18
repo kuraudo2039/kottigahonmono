@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>在室状況管理システムHP</title>
+  <title>在室状況管理システム-ルーム一覧</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheet_home.css">
@@ -33,10 +33,10 @@
           <div class="navbar-nav mr-auto"></div>
           <form class="form-inline my-2 my-lg-0">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item">
+                <a class="nav-link" href="https://kuraudo2039.github.io/kottigahonmono/HP.html">ホーム <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
                 <a class="nav-link" href="#">ルーム一覧</a>
               </li>
               <li class="nav-item dropdown">
@@ -60,6 +60,52 @@
   <main>
     <div class="main-wrapper">
       <div class="contents">
+        <div class="container">
+          <div class="column_option">
+          <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: -160px; will-change: transform;">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <div class="add-room">
+                <button type="button" class="btn disabled">
+                <i class="fas fa-plus"></i>
+                </button>
+              </div>
+            </div>
+          <div class="room-column">
+            <div class="card mb-3">
+                <div class="card-header">[room1]</div>
+                <div class="card-body">
+                  <h4 class="card-title"></h4>
+                  <p class="card-text">概要 : [room1]</p>
+                  <p class="card-text">在室状況 : </p>
+                  <p class="card-text">人数 : </p>
+                  <p class="card-text">最終更新 : </p>
+                </div>
+              </div>
+          </div>
+          <div class="room-column">
+            <div class="card mb-3">
+                <div class="card-header">[room2]</div>
+                <div class="card-body">
+                  <h4 class="card-title"></h4>
+                  <p class="card-text">概要 : [room2]</p>
+                  <p class="card-text">在室状況 : </p>
+                  <p class="card-text">人数 : </p>
+                  <p class="card-text">最終更新 : </p>
+                </div>
+              </div>
+          </div>
+          <div class="align-column">
+
+          </div>
+        </div>
         <!--      <input type="text" name="org_id" placeholder="組織ID">
         <input type="text" name="org_name" placeholder="組織名">
         <textarea name="org_about" rows="8" cols="80" placeholder="組織の概要・説明"></textarea>
@@ -76,7 +122,7 @@
     <div class="inner">
       <div class="frame">
         <div class="footer-children">
-          <a href="#">ホーム</a>
+          <a href="https://kuraudo2039.github.io/kottigahonmono/HP.html">ホーム</a>
           <a href="#">ログイン</a>
         </div>
         <div class="copyright">
