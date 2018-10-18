@@ -1,1 +1,35 @@
+.main-wrapper .contents{
+  height:auto;
+  width:100%;
+}
 
+.column-option{
+  width:70px;
+}
+.align-column{
+  width:70px;
+}
+
+.container{
+  display: flex;
+  width:900px;
+}
+
+.room-column{
+  width:330px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.room-column .card-header{
+  text-align: start;
+}
+
+/*.room_column .card-body{
+  text-align: left;
+}*/
+
+.room-column p{
+  text-align: start;
+}
