@@ -15,6 +15,4 @@ $('#ManagePassword2').keyup(function(){
   }
 });
 
-$(function(){
-
-});
+console.log("test");
